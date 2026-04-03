@@ -1,0 +1,2018 @@
+This is LuaTeX, Version 1.24.0 (TeX Live 2026)  (format=dvilualatex 2026.3.8)  3 APR 2026 18:14
+ restricted system commands enabled.
+**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCode"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.{\let\HCode\documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HCode}{\documentstyle[tex4ht]}}\RequirePackage[#1,html]{tex4ht}\RequirePackage{tex4ebook}\Configure{ext}{xhtml}}\makeatother\HCode style/tex4ebook.cfg,mathml,charset=utf-8,charset=utf-8,epub3,html5,uni-html4.a.b.c.\input "\detokenize{e-book.tex}"
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended collection.
+luaotfload | conf : Root cache directory is "/Users/jalvesnicacio/Library/texlive/2026/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-resolved path "/usr/local/texlive/2026/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/Users/jalvesnicacio/Library/texlive/2026/texmf-var/luatex-cache/generic/names".
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'.
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+version 2025-12-14-13:41
+Package: tex4ht 
+--------------------------------------
+--- Note --- for _ at preamble, use the command line option `early_'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ at preamble, use the command line option `early^'
+--------------------------------------
+\tmp:toks=\toks17
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+version 2025-08-27-10:30
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/tex4ebook/tex4ebook.sty
+Package: tex4ebook 2026-02-24 version v0.4d
+(/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count273
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/graphics-hooks.4ht
+version 2022-08-17-14:25
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 106.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2025/01/21 v3.2a Graphics/color driver for dvips
+))
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
+)) (./e-book.tex (./settings/language.tex (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/documentmetadata-support.ltx (/usr/local/texlive/2026/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanagement-testphase.sty
+Package: pdfmanagement-testphase 2026-01-23 v0.96y LaTeX PDF management bundle
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/tagpdf-base-hooks.4ht
+version 2026-02-09-08:43
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/tagpdf/tagpdf-base.sty
+Package: tagpdf-base 2026-01-29 v0.99y part of tagpdf - provide base, no-op versions of the user commands 
+\c@g__tag_MCID_abs_int=\count274
+\c@g__tag_struct_abs_int=\count275
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip49
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen149
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen150
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count276
+LaTeX Info: Redefining \frac on input line 235.
+\uproot@=\count277
+\leftroot@=\count278
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count279
+\DOTSCASE@=\count280
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count281
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count282
+\dotsspace@=\muskip17
+\c@parentequation=\count283
+\dspbrk@lvl=\count284
+\tag@help=\toks20
+\row@=\count285
+\column@=\count286
+\maxfields@=\count287
+\andhelp@=\toks21
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks22
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanagement.ltx
+File: pdfmanagement.ltx 2026-01-23 v0.96y PDF management code
+\g__pdfmanagement_EmbeddedFiles_int=\count288
+\l__pdfmeta_xmp_indent_int=\count289
+\g_pdffile_embed_pdfa_int=\count290
+\g_pdffile_embed_nonpdfa_int=\count291
+))) (/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+File: l3backend-dvips.def 2025-10-09 L3 backend support: dvips
+\l__pdfannot_backend_content_box=\box55
+\l__pdfannot_backend_model_box=\box56
+\g__pdfannot_backend_int=\count292
+\g__pdfannot_backend_link_int=\count293
+\g__pdfannot_backend_link_sf_int=\count294
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/pdfmanagement-testphase/l3backend-testphase-dvips.def
+File: l3backend-testphase-dvips.def 2026-01-23 v0.96y LaTeX PDF management bundle backend support:dvips
+\l__pdf_backend_tmpa_box=\box57
+\l__pdf_backend_tmpb_box=\box58
+\g__pdf_backend_resourceid_int=\count295
+\g__pdf_backend_name_int=\count296
+\g__pdf_backend_page_int=\count297
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-latest.sty
+Package: latex-lab-testphase-latest 2025-09-13 v0.1d latex-lab modules
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/tagpdf-hooks.4ht
+version 2024-07-26-15:08
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/tagpdf/tagpdf.sty
+Package: tagpdf 2026-01-29 v0.99y  LaTeX kernel code for PDF tagging 
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/tagpdf-base-hooks.4ht
+version2026-02-09-08:43
+)
+\l__tag_tmpa_int=\count298
+\l__tag_tmpa_box=\box59
+\l__tag_tmpb_box=\box60
+\l__tag_loglevel_int=\count299
+\g__tag_unique_cnt_int=\count300
+\l__tag_tag_stop_int=\count301
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tagpdf/tagpdf-luatex.def
+File: tagpdf-luatex.def 2026-01-29 v0.99y tagpdf driver for luatex
+luaotfload | db : Font names database loaded from /Users/jalvesnicacio/Library/texlive/2026/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz
+Inserting `luaotfload.dvi' in `pre_shipout_filter'.
+Lua module: tagpdf 2026-01-29 v0.99y tagpdf lua code
+Lua-only attribute g__tag_mc_type_attr = 4
+Lua-only attribute g__tag_mc_cnt_attr = 5
+Lua-only attribute g__tag_structnum_attr = 6
+Lua-only attribute g__tag_interwordspaceOff_attr = 7
+Lua-only attribute g__tag_interwordspace_attr = 8
+Lua-only attribute g__tag_interwordfont_attr = 9
+Lua-only attribute l__tag_softhyphen_attr = 10
+Inserting `tagpdf.rewrite-softhyphen' in `pre_shaping_filter'.
+Inserting `tagpdf.rewrite-softhyphen' in `post_shaping_filter'.) (/usr/local/texlive/2026/texmf-dist/tex/latex/tagpdf/tagpdf-mc-code-lua.sty
+Package: tagpdf-mc-code-lua 2026-01-29 v0.99y tagpdf - mc code only for the luamode 
+)
+\g__tag_tree_id_pad_int=\count302
+\c@g__tag_parenttree_obj_int=\count303
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf2.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-mathml.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-latex-book.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-latex.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-latex-lab.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf2.def
+
+\g__tag_struct_AFobj_int=\count304
+\g__tag_para_begin_int=\count305
+\g__tag_para_end_int=\count306
+\g__tag_para_main_begin_int=\count307
+\g__tag_para_main_end_int=\count308
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-names.sty
+Package: latex-lab-testphase-names 2025-08-14 v0.8f Code related to the names of tags
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-new-or-2.sty
+Package: latex-lab-testphase-new-or-2 2025-05-10 v0.86d Changes to the output routine
+(/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-footnotes.ltx
+File: latex-lab-footnotes.ltx 2025-07-04 v0.8o changes to the footnote interfaces
+\footnotemargin=\dimen158
+\g_fnote_id_int=\count309
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-block.sty
+Package: latex-lab-testphase-block 2025-07-26 v0.9k blockenv implementation
+(/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-kernel-changes.sty
+Package: latex-lab-kernel-changes 2025-07-09 v0.85i General kernel and class changes
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-context.sty
+Package: latex-lab-testphase-context 2025-10-09 v0.5b Providing context for instance, etc.
+)
+
+LaTeX template Info: Declaring template type 'blockenv' taking 1 argument(s)
+(template)           on line 96.
+
+
+LaTeX template Info: Declaring template type 'block' taking 1 argument(s) on
+(template)           line 97.
+
+
+LaTeX template Info: Declaring template type 'para' taking 1 argument(s) on
+(template)           line 98.
+
+
+LaTeX template Info: Declaring template type 'list' taking 1 argument(s) on
+(template)           line 99.
+
+
+LaTeX template Info: Declaring template type 'item' taking 1 argument(s) on
+(template)           line 100.
+
+\c@maxblocklevels=\count310
+\l__par_start_skip=\skip52
+\l__block_botsep_skip=\skip53
+\l__block_parbotsep_skip=\skip54
+\l__block_parindent_dim=\dimen159
+\l__block_counter_start_int=\count311
+\l__block_one_label_box=\box61
+\g__block_labels_box=\box62
+\l__block_tmpa_skip=\skip55
+\l__block_topsepadd_skip=\skip56
+\l__block_effective_top_skip=\skip57
+LaTeX Info: Redefining \centering on input line 1476.
+LaTeX Info: Redefining \raggedleft on input line 1477.
+LaTeX Info: Redefining \raggedright on input line 1478.
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-sec.sty
+Package: latex-lab-testphase-sec 2025-10-20 v0.84k Code related to the tagging of sectioning commands
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-toc.sty
+Package: latex-lab-testphase-toc 2025-07-02 v0.85h  Code related to the tagging of toc-like lists
+\g__tag_toc_level_int=\count312
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-minipage.sty
+Package: latex-lab-testphase-minipage 2025-05-10 v0.81g Code related to the tagging of minipages and parboxes
+(/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-new-or-1.sty
+Package: latex-lab-testphase-new-or-1 2025-05-10 v0.85d Temporary output patches for tagging and better link support -- no longer active
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-graphic.sty
+Package: latex-lab-testphase-graphic 2025-09-25 v0.80i Code related to the tagging of graphics
+\g__tag_graphic_int=\count313
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-float.sty
+Package: latex-lab-testphase-float 2025-10-17 v0.81l Code related to the tagging of floats
+\g__tag_float_int=\count314
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-bib.sty
+Package: latex-lab-testphase-bib 2025-05-09 v0.81c Code related to the tagging of bibliography and cite command
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-text.sty
+Package: latex-lab-testphase-text 2025-05-10 v0.85f Code related to the tagging of various small text commands
+LaTeX Info: Redefining \mbox on input line 84.
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-marginpar.sty
+Package: latex-lab-testphase-marginpar 2025-07-23 v0.85h Changes related to the tagging of the margin notes
+\g__kernel_marginpar_int=\count315
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-title.sty
+Package: latex-lab-testphase-title 2025-03-08 v0.85d Changes related to the tagging of the title
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-table.sty
+Package: latex-lab-testphase-table 2025-08-01 v0.85s Code related to the tagging of tables
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen160
+\ar@mcellbox=\box63
+\extrarowheight=\dimen161
+\NC@list=\toks24
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box64
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-math.sty
+Package: latex-lab-testphase-math 2025-03-10 v0.8d code related to the math tagging
+(/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-math.ltx
+File: latex-lab-math.ltx 2025-10-02 v0.6w Grab all the math(s) and tag it (experiments)
+\l__math_tmpa_skip=\skip60
+\g__math_mathml_total_int=\count316
+\g__math_mathml_int=\count317
+\g__math_math_total_int=\count318
+\g__math_mathml_AF_found_int=\count319
+\g__math_mathml_AF_attached_int=\count320
+\l__math_tmpa_box=\box65
+\l__math_mathstyle_int=\count321
+\g__math_mathchoice_int=\count322
+\l__math_grab_env_int=\count323
+\g__math_postdisplaypenalty_int=\count324
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-amsmath.ltx
+File: latex-lab-amsmath.ltx 2025-09-29 v0.1i amsmath adaptions
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/tagpdf-base-hooks.4ht
+version 2026-02-09-08:43
+)
+LaTeX Info: Redefining \eqref on input line 57.
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-mathpkg.ltx
+File: latex-lab-mathpkg.ltx 2025-06-20 v0.1c mathpkg adaptions
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-mathintent.ltx
+File: latex-lab-mathintent.ltx 2025-08-03 v0.1c MathML intent attributes
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-firstaid.sty
+Package: latex-lab-testphase-firstaid 2025-11-03 v2025-11-03 Temporary patches to external packages needed for the tagging project
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-tikz.sty
+Package: latex-lab-testphase-tikz 2025-09-27 v0.80d Code related to the tagging of tikz pictures
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanagement-firstaid.sty
+Package: pdfmanagement-firstaid 2026-01-23 v0.96y LaTeX PDF management bundle / firstaid-patches
+
+Package pdfmanagement Info: loading pdfmanagement firstaid code for pgf
+
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count325
+\c@chapter=\count326
+\c@section=\count327
+\c@subsection=\count328
+\c@subsubsection=\count329
+\c@paragraph=\count330
+\c@subparagraph=\count331
+\c@figure=\count332
+\c@table=\count333
+\abovecaptionskip=\skip61
+\belowcaptionskip=\skip62
+\bibindent=\dimen162
+) (./structure/preamble.tex (./settings/details.tex) (./settings/content.tex
+\bookwidth=\skip63
+\bookheight=\skip64
+\bleed=\skip65
+\margintop=\skip66
+\marginbottom=\skip67
+\marginoutside=\skip68
+\margininside=\skip69
+\pagecount=\count334
+) (./settings/publisher.tex) (./lib/packages.tex (./lib/draft.tex) (./lib/typesetting.tex (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/enumitem-hooks.4ht
+version 2024-09-09-13:35
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip70
+\enit@outerparindent=\dimen163
+\enit@toks=\toks25
+\enit@inbox=\box66
+\enit@count@id=\count335
+\enitdp@description=\count336
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/tikz-hooks.4ht
+version 2025-11-20-13:54
+*****************************
+TeX4ht info: Using dvisvgm4ht TikZ driver. Put \def \pgfsysdriver {driver-name} to your document before use of TikZ if you want to another driver. Use tikz+ option if your TikZ pictures use patterns.
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/pgf-hooks.4ht
+version 2024-01-15-14:00
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen164
+\pgfutil@tempdimb=\dimen165
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box67
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks29
+))
+\pgf@x=\dimen166
+\pgf@y=\dimen167
+\pgf@xa=\dimen168
+\pgf@ya=\dimen169
+\pgf@xb=\dimen170
+\pgf@yb=\dimen171
+\pgf@xc=\dimen172
+\pgf@yc=\dimen173
+\pgf@xd=\dimen174
+\pgf@yd=\dimen175
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count337
+\c@pgf@countb=\count338
+\c@pgf@countc=\count339
+\c@pgf@countd=\count340
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
+\pgf@sys@id@count=\count341
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-dvisvgm4ht.def
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvisvgm4ht.def
+File: pgfsys-dvisvgm4ht.def 2025-08-29 v3.1.11a (3.1.11a)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvisvgm.def
+File: pgfsys-dvisvgm.def 2025-08-29 v3.1.11a (3.1.11a)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-svg.def
+File: pgfsys-common-svg.def 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@sys@svg@objectcount=\count342
+\pgf@sys@svg@scopecount=\count343
+\pgf@sys@svg@type@count=\count344
+\pgf@sys@svg@canvascount=\count345
+)))) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count346
+\pgfsyssoftpath@bigbuffer@items=\count347
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/xcolor-hooks.4ht
+version 2020-10-17-13:53
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: dvips.def on input line 274.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/pdfmanagement-testphase/xcolor-patches-tmp-ltx.sty
+Package: xcolor-patches-tmp-ltx 2026-01-23 v0.96y patch xcolor for l3color
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen176
+\pgfmath@count=\count348
+\pgfmath@box=\box68
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count349
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen177
+\pgf@picmaxx=\dimen178
+\pgf@picminy=\dimen179
+\pgf@picmaxy=\dimen180
+\pgf@pathminx=\dimen181
+\pgf@pathmaxx=\dimen182
+\pgf@pathminy=\dimen183
+\pgf@pathmaxy=\dimen184
+\pgf@xx=\dimen185
+\pgf@xy=\dimen186
+\pgf@yx=\dimen187
+\pgf@yy=\dimen188
+\pgf@zx=\dimen189
+\pgf@zy=\dimen190
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen191
+\pgf@path@lasty=\dimen192
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen193
+\pgf@shorten@start@additional=\dimen194
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box69
+\pgf@hbox=\box70
+\pgf@layerbox@main=\box71
+\pgf@picture@serial@count=\count350
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen195
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen196
+\pgf@pt@y=\dimen197
+\pgf@pt@temp=\dimen198
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen199
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen256
+\pgf@sys@shading@range@num=\count351
+\pgf@shadingcount=\count352
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box72
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box73
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen257
+\pgf@nodesepend=\dimen258
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen259
+\pgffor@skip=\dimen260
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count353
+\pgfplotmarksize=\dimen261
+)
+\tikz@lastx=\dimen262
+\tikz@lasty=\dimen263
+\tikz@lastxsaved=\dimen264
+\tikz@lastysaved=\dimen265
+\tikz@lastmovetox=\dimen266
+\tikz@lastmovetoy=\dimen267
+\tikzleveldistance=\dimen268
+\tikzsiblingdistance=\dimen269
+\tikz@figbox=\box74
+\tikz@figbox@bg=\box75
+\tikz@tempbox=\box76
+\tikz@tempbox@bg=\box77
+\tikztreelevel=\count354
+\tikznumberofchildren=\count355
+\tikznumberofcurrentchild=\count356
+\tikz@fig@count=\count357
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count358
+\pgfmatrixcurrentcolumn=\count359
+\pgf@matrix@numberofcolumns=\count360
+)
+\tikz@expandcount=\count361
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))) (/usr/local/texlive/2026/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks38
+\verbatim@line=\toks39
+\verbatim@in@stream=\read3
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+(/usr/local/texlive/2026/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box78
+\tcb@upperbox=\box79
+\tcb@lowerbox=\box80
+\tcb@phantombox=\box81
+\c@tcbbreakpart=\count362
+\c@tcblayer=\count363
+\c@tcolorbox@number=\count364
+\l__tcobox_tmpa_box=\box82
+\l__tcobox_tmpa_dim=\dimen270
+\tcb@temp=\box83
+\tcb@temp=\box84
+\tcb@temp=\box85
+\tcb@temp=\box86
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen271
+\WF@size=\dimen272
+\c@WF@wrappedlines=\count365
+\WF@box=\box87
+\WF@everypar=\toks40
+Package: wrapfig 2003/01/31  v 3.6
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen273
+\lightrulewidth=\dimen274
+\cmidrulewidth=\dimen275
+\belowrulesep=\dimen276
+\belowbottomsep=\dimen277
+\aboverulesep=\dimen278
+\abovetopsep=\dimen279
+\cmidrulesep=\dimen280
+\cmidrulekern=\dimen281
+\defaultaddspace=\dimen282
+\@cmidla=\count366
+\@cmidlb=\count367
+\@aboverulesep=\dimen283
+\@belowrulesep=\dimen284
+\@thisruleclass=\count368
+\@lastruleclass=\count369
+\@thisrulewidth=\dimen285
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box88
+\UL@hyphenbox=\box89
+\UL@skip=\skip71
+\UL@hook=\toks41
+\UL@height=\dimen286
+\UL@pe=\count370
+\UL@pixel=\dimen287
+\ULC@box=\box90
+Package: ulem 2019/11/18
+\ULdepth=\dimen288
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/widows-and-orphans/widows-and-orphans.sty
+Package: widows-and-orphans 2023/04/02 v1.0f Detecting widows and orphans (FMi)
+\l__fmwao_tmp_int=\count371
+) (./lib/language.tex (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/babel-sty-hooks.4ht
+version 2024-06-20-13:26
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2026/02/14 v26.3 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/luababel.def
+\bbl@readstream=\read4
+\l@dumylang=\language2
+Package babel Info: Non-standard hyphenation setup on input line 118.
+\l@nohyphenation=\language3
+\l@german-x-2024-02-28=\language4
+\l@ngerman-x-2024-02-28=\language5
+\l@afrikaans=\language6
+\l@albanian=\language7
+\l@ancientgreek=\language8
+\l@ibycus=\language9
+\l@arabic=\language10
+\l@armenian=\language11
+\l@basque=\language12
+\l@belarusian=\language13
+\l@bulgarian=\language14
+\l@catalan=\language15
+\l@pinyin=\language16
+\l@churchslavonic=\language17
+\l@coptic=\language18
+\l@croatian=\language19
+\l@czech=\language20
+\l@danish=\language21
+\l@dutch=\language22
+\l@ukenglish=\language23
+\l@usenglishmax=\language24
+\l@esperanto=\language25
+\l@estonian=\language26
+\l@ethiopic=\language27
+\l@farsi=\language28
+\l@finnish=\language29
+\l@schoolfinnish=\language30
+\l@french=\language31
+\l@friulan=\language32
+\l@galician=\language33
+\l@georgian=\language34
+\l@german=\language35
+\l@ngerman=\language36
+\l@swissgerman=\language37
+\l@greek=\language38
+\l@monogreek=\language39
+\l@hebrew=\language40
+\l@hungarian=\language41
+\l@icelandic=\language42
+\l@assamese=\language43
+\l@bengali=\language44
+\l@gujarati=\language45
+\l@hindi=\language46
+\l@kannada=\language47
+\l@malayalam=\language48
+\l@marathi=\language49
+\l@oriya=\language50
+\l@pali=\language51
+\l@panjabi=\language52
+\l@tamil=\language53
+\l@telugu=\language54
+\l@indonesian=\language55
+\l@interlingua=\language56
+\l@irish=\language57
+\l@italian=\language58
+\l@kazakh=\language59
+\l@kurmanji=\language60
+\l@classiclatin=\language61
+\l@latin=\language62
+\l@liturgicallatin=\language63
+\l@latvian=\language64
+\l@lithuanian=\language65
+\l@macedonian=\language66
+\l@mongolian=\language67
+\l@mongolianlmc=\language68
+\l@bokmal=\language69
+\l@nynorsk=\language70
+\l@occitan=\language71
+\l@piedmontese=\language72
+\l@polish=\language73
+\l@portuguese=\language74
+\l@romanian=\language75
+\l@romansh=\language76
+\l@russian=\language77
+\l@sanskrit=\language78
+\l@serbian=\language79
+\l@serbianc=\language80
+\l@slovak=\language81
+\l@slovenian=\language82
+\l@spanish=\language83
+\l@swedish=\language84
+\l@thai=\language85
+\l@turkish=\language86
+\l@turkmen=\language87
+\l@ukrainian=\language88
+\l@uppersorbian=\language89
+\l@vietnamese=\language90
+\l@welsh=\language91
+\babelcatcodetablenum=\catcodetable14
+\bbl@pattcodes=\catcodetable15
+)
+\babel@savecnt=\count372
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2078.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2080.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2082.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2083.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2084.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2086.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2111.
+\U@D=\dimen289
+\l@unhyphenated=\language92
+(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/luababel.def
+\bbl@attr@locale=\attribute11
+)
+Package babel Info: Fetching locale name for tag en-US
+(babel)             from babel-en-US.ini. Reported on input line 4184.
+Package babel Info: Passing american to babel.
+(babel)             This will be the main language except if
+(babel)             explictly overriden with 'main='.
+(babel)             Reported on input line 4192.
+(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/locale/en/babel-american.tex)
+Package babel Info: Importing font and identification data for american
+(babel)             from babel-en-US.ini. Reported on input line 4330.
+(/usr/local/texlive/2026/texmf-dist/tex/generic/babel-english/american.ldf
+Language: american 2017/06/06 v3.3r English support from the babel system
+(/usr/local/texlive/2026/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language23). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language23). Reported on input line 108.
+)))) (/usr/local/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count373
+\csq@gtype=\count374
+\csq@glevel=\count375
+\csq@qlevel=\count376
+\csq@maxlvl=\count377
+\csq@tshold=\count378
+\csq@ltx@everypar=\toks42
+(/usr/local/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)
+Package csquotes Info: Enabling multilingual quotes.
+) (./lib/bibliography.tex (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/biblatex-hooks.4ht
+version 2021-11-05-15:12
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+\pdftexcmds@toks=\toks43
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count379
+(/usr/local/texlive/2026/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count380
+\c@listtotal=\count381
+\c@listcount=\count382
+\c@liststart=\count383
+\c@liststop=\count384
+\c@citecount=\count385
+\c@citetotal=\count386
+\c@multicitecount=\count387
+\c@multicitetotal=\count388
+\c@instcount=\count389
+\c@maxnames=\count390
+\c@minnames=\count391
+\c@maxitems=\count392
+\c@minitems=\count393
+\c@citecounter=\count394
+\c@maxcitecounter=\count395
+\c@savedcitecounter=\count396
+\c@uniquelist=\count397
+\c@uniquename=\count398
+\c@refsection=\count399
+\c@refsegment=\count400
+\c@maxextratitle=\count401
+\c@maxextratitleyear=\count402
+\c@maxextraname=\count403
+\c@maxextradate=\count404
+\c@maxextraalpha=\count405
+\c@abbrvpenalty=\count406
+\c@highnamepenalty=\count407
+\c@lownamepenalty=\count408
+\c@maxparens=\count409
+\c@parenlevel=\count410
+\blx@tempcnta=\count411
+\blx@tempcntb=\count412
+\blx@tempcntc=\count413
+\c@blx@maxsection=\count414
+\blx@maxsegment@0=\count415
+\blx@notetype=\count416
+\blx@parenlevel@text=\count417
+\blx@parenlevel@foot=\count418
+\blx@sectionciteorder@0=\count419
+\blx@sectionciteorderinternal@0=\count420
+\blx@entrysetcounter=\count421
+\blx@biblioinstance=\count422
+\labelnumberwidth=\skip72
+\labelalphawidth=\skip73
+\biblabelsep=\skip74
+\bibitemsep=\skip75
+\bibnamesep=\skip76
+\bibinitsep=\skip77
+\bibparsep=\skip78
+\bibhang=\skip79
+\blx@bcfin=\read5
+\blx@bcfout=\write4
+\blx@langwohyphens=\language93
+\c@mincomprange=\count423
+\c@maxcomprange=\count424
+\c@mincompwidth=\count425
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count426
+\c@savedafterword=\count427
+\c@annotator=\count428
+\c@savedannotator=\count429
+\c@author=\count430
+\c@savedauthor=\count431
+\c@bookauthor=\count432
+\c@savedbookauthor=\count433
+\c@commentator=\count434
+\c@savedcommentator=\count435
+\c@editor=\count436
+\c@savededitor=\count437
+\c@editora=\count438
+\c@savededitora=\count439
+\c@editorb=\count440
+\c@savededitorb=\count441
+\c@editorc=\count442
+\c@savededitorc=\count443
+\c@foreword=\count444
+\c@savedforeword=\count445
+\c@holder=\count446
+\c@savedholder=\count447
+\c@introduction=\count448
+\c@savedintroduction=\count449
+\c@namea=\count450
+\c@savednamea=\count451
+\c@nameb=\count452
+\c@savednameb=\count453
+\c@namec=\count454
+\c@savednamec=\count455
+\c@translator=\count456
+\c@savedtranslator=\count457
+\c@shortauthor=\count458
+\c@savedshortauthor=\count459
+\c@shorteditor=\count460
+\c@savedshorteditor=\count461
+\c@labelname=\count462
+\c@savedlabelname=\count463
+\c@institution=\count464
+\c@savedinstitution=\count465
+\c@lista=\count466
+\c@savedlista=\count467
+\c@listb=\count468
+\c@savedlistb=\count469
+\c@listc=\count470
+\c@savedlistc=\count471
+\c@listd=\count472
+\c@savedlistd=\count473
+\c@liste=\count474
+\c@savedliste=\count475
+\c@listf=\count476
+\c@savedlistf=\count477
+\c@location=\count478
+\c@savedlocation=\count479
+\c@organization=\count480
+\c@savedorganization=\count481
+\c@origlocation=\count482
+\c@savedoriglocation=\count483
+\c@origpublisher=\count484
+\c@savedorigpublisher=\count485
+\c@publisher=\count486
+\c@savedpublisher=\count487
+\c@language=\count488
+\c@savedlanguage=\count489
+\c@origlanguage=\count490
+\c@savedoriglanguage=\count491
+\c@pageref=\count492
+\c@savedpageref=\count493
+\shorthandwidth=\skip80
+\shortjournalwidth=\skip81
+\shortserieswidth=\skip82
+\shorttitlewidth=\skip83
+\shortauthorwidth=\skip84
+\shorteditorwidth=\skip85
+\locallabelnumberwidth=\skip86
+\locallabelalphawidth=\skip87
+\localshorthandwidth=\skip88
+\localshortjournalwidth=\skip89
+\localshortserieswidth=\skip90
+\localshorttitlewidth=\skip91
+\localshortauthorwidth=\skip92
+\localshorteditorwidth=\skip93
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count494
+\c@textcitetotal=\count495
+\c@textcitemaxnames=\count496
+\c@biburlbigbreakpenalty=\count497
+\c@biburlbreakpenalty=\count498
+\c@biburlnumpenalty=\count499
+\c@biburlucpenalty=\count500
+\c@biburllcpenalty=\count501
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count502
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+File: authoryear.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count503
+\c@bbx:relatedtotal=\count504
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
+File: authoryear.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/expl3-hooks.4ht
+version 2020-10-17-13:53
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
+)
+Package biblatex Info: ... and expl3
+(biblatex)             2026-01-19 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/expl3-hooks.4ht
+version 2020-10-17-13:53
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/expl3-hooks.4ht
+version 2020-10-17-13:53
+)
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+))) (./lib/references.tex (/usr/local/texlive/2026/texmf-dist/tex/latex/endnotes/endnotes.sty
+Package: endnotes 2020-01-02 endnotes package
+\c@endnote=\count505
+\endnotesep=\dimen290
+\@enotes=\write5
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+(/usr/local/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count506
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+xurl: Set penalties for biblatex
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/hyperref-hooks.4ht
+version 2023-09-17-08:01
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+(/usr/local/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen291
+\Hy@linkcounter=\count507
+\Hy@pagecounter=\count508
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count509
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4072.
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4468.
+\c@Hy@tempcnt=\count510
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen292
+(/usr/local/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count511
+\Field@Width=\dimen293
+\Fld@charsize=\dimen294
+\Field@toks=\toks44
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
+\Hy@abspage=\count512
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (custom): hgeneric-testphase.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pdfmanagement-testphase/hgeneric-testphase.def
+File: hgeneric-testphase.def 2026-01-23 v0.96y generic Hyperref driver for the LaTeX PDF management bundle
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pdfmanagement-testphase/hyperref-colorschemes.def)
+LaTeX Info: Redefining \href on input line 262.
+LaTeX Info: Redefining \url on input line 348.
+\l__hyp_tmpa_box=\box91
+\l__hyp_tmpa_int=\count513
+\l__hyp_dest_box=\box92
+\g__hyp_linknestlevel_int=\count514
+\HyAnn@Count=\count515
+\Fld@listcount=\count516
+\Hy@SectionHShift=\skip94
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/footnotehyper/footnotehyper.sty
+Package: footnotehyper 2025/11/15 v1.1f hyperref aware footnote.sty (JFB)
+\FNH@notes=\box93
+\FNH@width=\dimen295
+\FNH@toks=\toks45
+)) (./style/e-book-style.tex (/usr/local/texlive/2026/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count517
+\xs_countb=\count518
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)) (./style/e-book-advanced.tex (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/xcolor-hooks.4ht
+version 2020-10-17-13:53
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/colortbl-hooks.4ht
+version 2024-09-30-13:40
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+\everycr=\toks46
+\minrowclearance=\skip95
+\rownum=\count519
+)) (./style/general.tex)) (./style/tex4ebook.cfg (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/tex4ht.4ht
+version 2025-07-09-13:35
+--------------------------------------
+--- Note --- for additional information, use the command line option `info'
+--------------------------------------
+::::::::::::::::::::::::::::::::::::::::::
+ TeX4ht info is available in the log file 
+::::::::::::::::::::::::::::::::::::::::::
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+version 2025-12-14-13:41
+l.882 --- TeX4ht warning --- nonprimitive \everypar ---
+--- needs --- tex4ht e-book ---
+\tmp:cnt=\count520
+
+\openout15 = e-book.tmp
+(./e-book.tmp)
+\tmp:dim=\skip96
+(./e-book.xref)
+\:refout=\write6
+
+\openout6 = e-book.xref
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+--------------------------------------
+--- Note --- to remove the <?xml version=...?> processing instruction use the command line option `no-VERSION'
+--------------------------------------
+--------------------------------------
+--- Note --- to remove the DOCTYPE declaration use the command line option `no-DOCTYPE'
+--------------------------------------
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)
+--------------------------------------
+--- Note --- for marking of the base font, use the command line option `fonts+'
+--------------------------------------
+--------------------------------------
+--- Note --- for non active _, use the command line option `no_'
+--------------------------------------
+--------------------------------------
+--- Note --- for _ of catcode 13, use the command line option `_13'
+--------------------------------------
+--------------------------------------
+--- Note --- for non active ^, use the command line option `no^'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ of catcode 13, use the command line option `^13'
+--------------------------------------
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+--------------------------------------
+--- Note --- to ignore CSS font decoration, use the `NoFonts' command line option
+--------------------------------------
+--------------------------------------
+--- Note --- for jpg bitmaps of pictures, use the `jpg' command line option. (Character bitmaps are controled only by `g' records of tex4ht.env and `-g' switches of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for gif bitmaps of pictures, use the `gif' command line option. (Character bitmaps are controled only by `g' records of tex4ht.env and `-g' switches of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for content and toc in 2 frames, use the command line option `frames'
+--------------------------------------
+--------------------------------------
+--- Note --- for content, toc, and footnotes in 3 frames, use the command line option `frames-fn'
+--------------------------------------
+--------------------------------------
+--- Note --- for file extension name xht, use the command line option `xht'
+--------------------------------------
+TeX4ht package options: mathml,charset=utf-8,epub3,html5,uni-html4,html,xhtml
+--------------------------------------
+--- Note --- To print a timestamp, use the command line option timestamp
+--------------------------------------
+--------------------------------------
+--- Note --- to ignore CSS code, use the command line option `-css
+--------------------------------------
+--------------------------------------
+--- Note --- for inline CSS code, use the command line option `css-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for pop ups on mouse over, use the command line option `mouseover'
+--------------------------------------
+--------------------------------------
+--- Note --- for addressing images in a subdirectory, use the command line option `imgdir:.../'
+--------------------------------------
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+--------------------------------------
+--- Note --- To print a timestamp, use the command line option timestamp
+--------------------------------------
+--------------------------------------
+--- Note --- We use a default CSS style. Use the `nostyle' option if you want to use custom a CSS design
+--------------------------------------
+)
+\:tokwrite=\toks47
+\:tokpage=\toks48
+--------------------------------------
+--- Note --- for back links to toc, use the command line option `sections+'
+--------------------------------------
+--------------------------------------
+--- Note --- for linear crosslinks of pages, use the command line option `next'
+--------------------------------------
+
+\openout15 = e-book.4ct
+\:tocout=\write7
+
+\openout7 = e-book.4tc
+(e-book.4tc) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/latex.4ht
+version 2025-12-04-13:51
+LaTeX Info: Redefining \_ on input line 180.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 116.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/kastrup/binhex.tex) (/usr/local/texlive/2026/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2025/07/18 v2.1d Standard LaTeX file
+\@remove@tlig@@@=\luafunction31
+LaTeX Font Info:    Redeclaring font encoding OT1 on input line 105.
+LaTeX Encoding Info:    Redeclaring text command \textnonbreakinghyphen (encoding OT1) on input line 226.
+LaTeX Encoding Info:    Redeclaring text command \textfiguredash (encoding OT1) on input line 228.
+LaTeX Encoding Info:    Redeclaring text command \texthorizontalbar (encoding OT1) on input line 230.
+LaTeX Encoding Info:    Redeclaring text command \` (encoding OT1) on input line 299.
+LaTeX Encoding Info:    Redeclaring text command \' (encoding OT1) on input line 300.
+LaTeX Encoding Info:    Redeclaring text command \^ (encoding OT1) on input line 301.
+LaTeX Encoding Info:    Redeclaring text command \~ (encoding OT1) on input line 302.
+LaTeX Encoding Info:    Redeclaring text command \= (encoding OT1) on input line 303.
+LaTeX Encoding Info:    Redeclaring text command \u (encoding OT1) on input line 304.
+LaTeX Encoding Info:    Redeclaring text command \. (encoding OT1) on input line 305.
+LaTeX Encoding Info:    Redeclaring text command \" (encoding OT1) on input line 306.
+LaTeX Encoding Info:    Redeclaring text command \r (encoding OT1) on input line 307.
+LaTeX Encoding Info:    Redeclaring text command \H (encoding OT1) on input line 308.
+LaTeX Encoding Info:    Redeclaring text command \v (encoding OT1) on input line 309.
+LaTeX Encoding Info:    Redeclaring text command \b (encoding OT1) on input line 310.
+LaTeX Encoding Info:    Redeclaring text command \d (encoding OT1) on input line 311.
+LaTeX Encoding Info:    Redeclaring text command \c (encoding OT1) on input line 312.
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/tuenc-luatex.4ht
+version 2018-08-30-15:28
+(/usr/local/texlive/2026/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+(/usr/local/texlive/2026/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count521
+)
+\CatcodeTableOther=\catcodetable16
+\CatcodeTableExpl=\catcodetable17
+) (/usr/local/texlive/2026/texmf-dist/tex/lualatex/luacode/luacode.sty
+Package: luacode 2012/01/23 v1.2a lua-in-tex helpers (mpg)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+\luacode@lines=\toks49
+\luacode@table@soft=\catcodetable18
+)
+Inserting `Char to entity' in `pre_linebreak_filter'.
+Inserting `hpack-char-to-entity' in `hpack_filter'.
+Inserting `hpack-char-to-entity' in `vpack_filter'. (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+))
+LaTeX Info: Redefining \begin on input line 634.
+LaTeX Info: Redefining \end on input line 682.
+LaTeX Info: Redefining \, on input line 844.
+LaTeX Info: Redefining \; on input line 845.
+LaTeX Info: Redefining \! on input line 846.
+LaTeX Info: Redefining \: on input line 847.
+LaTeX Info: Redefining \> on input line 848.
+--------------------------------------
+--- Note --- for links into captions, instead of float heads, use the command line option `refcaption'
+--------------------------------------
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+--------------------------------------
+--- Note --- For mini tocs immediately aftter the header use the command line option `minitoc<'
+--------------------------------------
+--------------------------------------
+--- Note --- For full TOC on each page compatible with the collapsetoc DOM filter, use the `fulltoc' command line option.
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements with valued data, use the command line option `enumerate+'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements li's with value attributes, use the command line option `enumerate-'
+--------------------------------------
+--------------------------------------
+--- Note --- for CSS2 code, use the command line option `css2'
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial tabular, use the command line option `pic-tabular'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap fbox'es, use the command line option `pic-fbox'
+--------------------------------------
+--------------------------------------
+--- Note --- for minipage with width, use the command line option `minipage-width'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap framebox'es, use the command line option `pic-framebox'
+--------------------------------------
+--------------------------------------
+--- Note --- for inline footnotes use command line option `fn-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for tracing of latex font commands, use the command line option `fonts'
+--------------------------------------
+--------------------------------------
+--- Note --- for width specifications of tabular p entries, use the `p-width' command line option or a configuration similar to \Configure{HColWidth}{\HCode{ style="width:\HColWidth"}}
+--------------------------------------
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/fontmath.4ht
+version 2022-10-25-13:59
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+\tmp:bx=\box94
+
+Overfull \hbox (8697.90158pt too wide) in paragraph at lines 1487--1490
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/array.4ht
+version 2025-08-14-13:28
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/color.4ht
+version 2025-06-05-13:26
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/colortbl.4ht
+version 2025-02-18-10:11
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/xcolor-hooks.4ht
+version 2020-10-17-13:53
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/tex4ebook/tex4ebook.4ht
+\opf:htmlid=\count522
+\navpoint=\count523
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tex4ebook/tex4ebook-epub3.4ht
+\:toccount=\count524
+\footnotebox=\box95
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/graphicx.4ht
+version 2022-01-12-13:53
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/graphics.4ht
+version 2024-03-07-13:56
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+--------------------------------------
+--- Note --- if included graphics are of degraded quality, try the command line options `graphics-num' or `graphics-'. The `num' should provide the density of pixels in the bitmaps (e.g., 110). 
+--------------------------------------
+--------------------------------------
+--- Note --- for setting image dimensions, try the option `Gin-dim'; to use percents instead of units, use `Gin-perecent'; for key dimensions when bounding box is unavailable try `Gin-dim+'; neither is recommended
+--------------------------------------
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/dvips.4ht
+version 2009-05-21-09:32
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/amsmath.4ht
+version 2025-12-11-13:10
+\tmp:muskip=\muskip23
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/amstext.4ht
+version 2009-05-21-09:32
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/amsbsy.4ht
+version 2009-05-21-09:32
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/amsopn.4ht
+version 2009-05-21-09:32
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/book.4ht
+version 2023-04-10-13:46
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+--------------------------------------
+--- Note --- for automatic sectioning pagination, use the command line option `1', `2', `3', '4', '5', '6', or '7'
+--------------------------------------
+--------------------------------------
+--- Note --- for files named derived from section titles, use the command line option `sec-filename'
+--------------------------------------
+--------------------------------------
+--- Note --- for i-columns index, use the command line option `index=i' (e.g., index=2)
+--------------------------------------
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/enumitem.4ht
+version 2024-09-09-13:35
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/tcolorbox.4ht
+version 2026-02-19-14:45
+\c@:tcbcolcount=\count525
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/pgf.4ht
+version 2009-05-21-09:32
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/xcolor.4ht
+version 2025-06-05-13:26
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/color.4ht
+version 2025-06-05-13:26
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/verbatim.4ht
+version 2021-07-04-09:13
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/wrapfig.4ht
+version 2009-05-21-09:32
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/booktabs.4ht
+version 2009-05-21-09:32
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/pifont.4ht
+version 2009-05-21-09:32
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/ulem.4ht
+version 2022-05-01-08:25
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/babel.4ht
+version 2025-10-07-12:51
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/csquotes.4ht
+version 2020-11-26-13:59
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/biblatex.4ht
+version 2023-12-11-13:31
+\sv:sec:cnt=\count526
+\c@bib=\count527
+\blx@unitmark=\skip97
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/ifthen.4ht
+version 2025-06-16-13:44
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/url.4ht
+version 2025-07-11-09:25
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+--------------------------------------
+--- Note --- for URL encoding within href use the command line option `url-enc'
+--------------------------------------
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/endnotes.4ht
+version 2022-10-25-13:59
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/nameref.4ht
+version 2025-03-03-13:56
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/hyperref.4ht
+version 2025-10-29-12:48
+l.214 --- TeX4ht warning --- \usepackage[...]{hyperref} assumes `pdf' option, not `tex4ht' ---
+l.422 --- TeX4ht warning --- \href of hyperref.sty introduces the prefix `file:' to prefix-free references. The command \hyperlinkfileprefix{...} may be used for changing the prefix (probably \hyperlinkfileprefix{}). ---
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/pd1enc.4ht
+version 2009-05-21-09:32
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2026-01-04-08:10
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/mathml.4ht
+version 2025-10-17-09:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html-mml.4ht
+version 2026-01-18-07:06
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2026-01-18-07:06
+))
+
+Package tagpdf Warning: The package unicode-math is missing
+(tagpdf)                luamml will not create an MathML file.
+(tagpdf)                To avoid this warning load unicode-math 
+(tagpdf)                or disable luamml with 
+(tagpdf)                \tagpdfsetup {math/mathml/luamml/load=false}
+(tagpdf)                or force luamml with 
+(tagpdf)                \tagpdfsetup {math/mathml/luamml/load=true}
+
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+
+Package biblatex Warning: Patching footnotes failed.
+(biblatex)                Footnote detection will not work.
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/bookmark-hooks.4ht
+version 2022-07-07-14:08
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/tex4ht/hyperref-hooks.4ht
+version 2023-09-17-08:01
+)
+
+Package bookmark Warning: Draft mode on.
+
+) (./e-book.aux)
+\openout1 = e-book.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+Info: mathml file e-book-mathml does not exist
+Info: mathml file e-book-luamml-mathml does not exist
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+))
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+\openout4 = e-book.bcf
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'e-book.bbl' not found.
+No file e-book.bbl.
+Package biblatex Info: Reference section=0 on input line 14.
+Package biblatex Info: Reference segment=0 on input line 14.
+Package hyperref Info: Link coloring OFF on input line 14.
+
+Package footnotehyper Warning: 
+(footnotehyper)    Failed to analyse \@makefntext into something usable.
+(footnotehyper)    Using as fall-back the article class code.
+(footnotehyper)    You may try to email the author this problematic meaning:
+(footnotehyper)    \protected\long macro:#1->\noindent \socket_use:n {fntext/mark/link}\tag_socket_use:nnn {fntext/mark}{}{\socket_use:n {fntext/mark}}\tag_socket_use:nnn {fntext/text}{}{\socket_use:nn {fntext/text}{#1}}
+(footnotehyper)    together with the document preamble (in particular if
+(footnotehyper)    footnote numbers do not show at bottom of page).
+
+--- file e-book.css ---
+) (./structure/front.tex [1
+
+] [2
+
+] (./0-front/template-front.tex
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 18.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 40.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [1]) [2] (./0-front/1-title.tex [3
+
+] [4
+
+] [5
+
+] [1]) [2] (./0-front/2-publisher.tex [3
+
+] [4
+
+]
+--- file e-bookli1.xhtml ---
+[5
+
+]) [6] (./0-front/4-table-of-contents.tex [7
+
+] [8
+
+]
+--- file e-bookli2.xhtml ---
+(./e-book.4ct)) [9
+
+] (./0-front/8-preface.tex [10
+
+] [11
+
+] [12
+
+]
+--- file e-bookch1.xhtml ---
+) [13] (./0-front/advertisement.tex [14
+
+] [15
+
+] [16
+
+]
+--- file e-bookch2.xhtml ---
+(./0-front/lode2026.tex
+
+LaTeX Warning: Citation 'lode2026' on page 17 undefined on input line 7.
+
+) [17] (./0-front/tams2026.tex [18] [19
+
+] [20
+
+]
+--- file e-bookch3.xhtml ---
+
+LaTeX Warning: Citation 'tams2026' on page 21 undefined on input line 3.
+
+
+\openout5 = e-book.ent
+)) [21]) (./structure/body.tex [22
+
+] (./1-body/01-sample-chapter.tex [1
+
+] [2
+
+]
+Chapter 1.
+--- file e-bookch4.xhtml ---
+[3
+
+]) [4]) (./structure/appendix.tex [5
+
+]) (./structure/back.tex [6
+
+] (./e-book.ent)
+
+LaTeX Warning: Empty bibliography on input line 9.
+
+(./3-back/1-last.tex) [7
+
+]) (./e-book.4ct) [8
+
+] (./e-book.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                e-book
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'e-book.run.xml'.
+
+\openout1 = e-book.run.xml
+)
+
+Here is how much of LuaTeX's memory you used:
+ 47424 strings out of 476071
+ 100000,1977958 words of node,token memory allocated
+ 897 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 2 glyph, 99 attribute, 78 glue_spec, 51 attribute_list, 1 write nodes
+   avail lists: 1:2,2:2945,3:3002,4:29,5:310,6:153,7:5320,8:150,9:2559,10:28,11:289
+ 67519 multiletter control sequences out of 65536+600000
+ 74 fonts using 4828159 bytes
+ 126i,5n,142p,1570b,1788s stack positions out of 10000i,1000n,20000p,200000b,200000s
+Output written on e-book.dvi (37 pages, 80392 bytes).

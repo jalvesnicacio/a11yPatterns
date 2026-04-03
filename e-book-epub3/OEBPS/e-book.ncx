@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx version='2005-1' xmlns='http://www.daisy.org/z3986/2005/ncx/'>
+  <head>
+    <meta content='http://example.com/e-book' name='dtb:uid' />
+    <meta content='3' name='dtb:depth' />
+    <meta content='0' name='dtb:totalPageCount' />
+    <meta content='0' name='dtb:maxPageNumber' />
+  </head>
+  <docTitle>
+    <text>The Title</text>
+  </docTitle>
+  <navMap>
+    <navPoint id='navPoint-1' playOrder='1'>
+      <navLabel>
+        <text>Impressum</text>
+      </navLabel>
+      <content src='e-bookli1.xhtml#x2-1000'></content>
+    </navPoint>
+    <navPoint id='navPoint-2' playOrder='2'>
+      <navLabel>
+        <text>Contents</text>
+      </navLabel>
+      <content src='e-bookli2.xhtml#x3-2000'></content>
+    </navPoint>
+    <navPoint id='navPoint-3' playOrder='3'>
+      <navLabel>
+        <text>Preface</text>
+      </navLabel>
+      <content src='e-bookch1.xhtml#x4-3000'></content>
+    </navPoint>
+    <navPoint id='navPoint-4' playOrder='4'>
+      <navLabel>
+        <text>Accompanying Books</text>
+      </navLabel>
+      <content src='e-bookch2.xhtml#x5-4000'></content>
+      <navPoint id='navPoint-5' playOrder='5'>
+        <navLabel>
+          <text>How To Publish Your Book with LaTeX</text>
+        </navLabel>
+        <content src='e-bookch2.xhtml#x5-5000'></content>
+      </navPoint>
+    </navPoint>
+    <navPoint id='navPoint-6' playOrder='6'>
+      <navLabel>
+        <text>The Author’s Magnificent Seven</text>
+      </navLabel>
+      <content src='e-bookch3.xhtml#x6-6000'></content>
+    </navPoint>
+    <navPoint id='navPoint-7' playOrder='7'>
+      <navLabel>
+        <text>1 Sample Chapter</text>
+      </navLabel>
+      <content src='e-bookch4.xhtml#x7-70001'></content>
+      <navPoint id='navPoint-8' playOrder='8'>
+        <navLabel>
+          <text>Notes</text>
+        </navLabel>
+        <content src='e-book.xhtml#x1-8000'></content>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

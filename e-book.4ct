@@ -1,0 +1,10 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{2}{x2-1000}{QQ2-2-1}{Impressum}}{5}\relax 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{3}{x3-2000}{QQ2-3-2}{Contents}}{9}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{4}{x4-3000}{QQ2-4-3}{Preface}}{13}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{5}{x5-4000}{QQ2-5-4}{Accompanying Books}}{17}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{5}{x5-5000}{QQ2-5-5}{How To Publish Your Book with LaTeX}}{17}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{6}{x6-6000}{QQ2-6-6}{The Author's Magnificent Seven}}{21}\relax 
+\doTocEntry\tocchapter{1}{\csname a:TocLink\endcsname{7}{x7-70001}{QQ2-7-7}{Sample Chapter}}{3}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-8000}{QQ2-1-8}{Notes}}{7}\relax 
+\par 
